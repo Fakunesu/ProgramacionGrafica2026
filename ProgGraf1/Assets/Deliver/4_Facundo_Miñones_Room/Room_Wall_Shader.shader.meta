@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: 66ee1488cd5c9784cb1c25afa8f74d17
+guid: 243474ab32e488c4ea028f9df321e7b0
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _TextureSample0: {fileID: 2800000, guid: 792d0f119fdb13f4b91674c99f744692, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 
