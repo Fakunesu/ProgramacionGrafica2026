@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Room_WallMaterial
+  m_Name: Room_Wall_material
   m_Shader: {fileID: 4800000, guid: 243474ab32e488c4ea028f9df321e7b0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -83,5 +83,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Scale: {r: 20, g: 20, b: 20, a: 54.57}
+    - _Scale: {r: 20, g: 20, b: 20, a: 20}
   m_BuildTextureStacks: []
