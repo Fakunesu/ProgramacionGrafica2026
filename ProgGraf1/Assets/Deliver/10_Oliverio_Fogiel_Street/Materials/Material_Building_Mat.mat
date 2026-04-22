@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Buildings2
+  m_Name: Material_Building_Mat
   m_Shader: {fileID: 4800000, guid: 1025d2b17d36d334eaebb0311ac1e11c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BottomText:
-        m_Texture: {fileID: 2800000, guid: 2ca69f73a51c9494f90af97540c9de46, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4f565dda70417dd49b382d76334c8dfc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopText:
-        m_Texture: {fileID: 2800000, guid: 458ae1cace85def43ad7278cc87a1ca2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0e6483e2079414e468c9fc416e19d17c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
