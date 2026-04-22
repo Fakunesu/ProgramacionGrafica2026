@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Room_Alley_Material
+  m_Name: Room_Alley_material
   m_Shader: {fileID: 4800000, guid: 243474ab32e488c4ea028f9df321e7b0, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
