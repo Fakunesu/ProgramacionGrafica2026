@@ -138,33 +138,33 @@ Shader "WaterSurface"
 }
 /*ASEBEGIN
 Version=18900
-363;73;1101;640;2114.078;736.4649;2.082161;False;False
-Node;AmplifyShaderEditor.CommentaryNode;29;-1927.347,-525.975;Inherit;False;836.1091;449.5714;Para el agua armé esto para que se pueda aplicar el art style del proyecto como ondas en el agua.;7;19;20;24;21;22;23;25;;1,1,1,1;0;0
-Node;AmplifyShaderEditor.Vector2Node;22;-1890.34,-281.7029;Inherit;False;Property;_tilling;tilling;5;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
-Node;AmplifyShaderEditor.SamplerNode;23;-1899.877,-475.9751;Inherit;True;Property;_TextureSample1;Texture Sample 1;6;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+381;73;1152;640;1247.762;174.8792;1.3;False;False
+Node;AmplifyShaderEditor.CommentaryNode;29;-2036.091,-503.1737;Inherit;False;836.1091;449.5714;Para el agua armé esto para que se pueda aplicar el art style del proyecto como ondas en el agua.;7;19;20;24;21;22;23;25;;1,1,1,1;0;0
+Node;AmplifyShaderEditor.SamplerNode;23;-2028.394,-453.9848;Inherit;True;Property;_TextureSample1;Texture Sample 1;6;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.Vector2Node;22;-1994.071,-243.8625;Inherit;False;Property;_tilling;tilling;5;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.CommentaryNode;30;-1796.811,76.73531;Inherit;False;549.1744;272.8795;Con esto se modifican las ondas en función de la textura de arriba.;3;14;16;17;;1,1,1,1;0;0
-Node;AmplifyShaderEditor.TextureCoordinatesNode;21;-1679.133,-300.5211;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.DynamicAppendNode;24;-1595.311,-447.4303;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.RangedFloatNode;25;-1624.075,-169.9746;Inherit;False;Property;_distortionProportion;distortionProportion;8;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleAddOpNode;20;-1432.138,-391.749;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.RangedFloatNode;16;-1712.029,253.904;Inherit;False;Property;_pannerSpeed;pannerSpeed;3;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TextureCoordinatesNode;21;-1767.014,-262.6807;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.DynamicAppendNode;24;-1704.055,-424.6291;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;20;-1540.882,-368.9478;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.Vector2Node;17;-1699.561,113.6923;Inherit;False;Property;_pannerUV;pannerUV;4;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
-Node;AmplifyShaderEditor.CommentaryNode;31;-1095.834,-65.87724;Inherit;False;1395.147;248.2;Esto es para aplicar el movimiento de ondas sobre la textura. El ADD está por si se quiere usar el Depth Fade. Usamos el Legacy/Unlit para fragmentar el color y poder aplicar Depth Fade.;4;1;3;4;13;;1,1,1,1;0;0
+Node;AmplifyShaderEditor.RangedFloatNode;25;-1707.754,-143.8313;Inherit;False;Property;_distortionProportion;distortionProportion;8;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;16;-1712.029,253.904;Inherit;False;Property;_pannerSpeed;pannerSpeed;3;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;14;-1479.199,174.3948;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.LerpOp;19;-1252.534,-291.3838;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.PannerNode;13;-1045.834,52.06894;Inherit;False;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0;False;1;FLOAT;1;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.CommentaryNode;31;-1095.834,-65.87724;Inherit;False;1395.147;248.2;Esto es para aplicar el movimiento de ondas sobre la textura. El ADD está por si se quiere usar el Depth Fade. Usamos el Legacy/Unlit para fragmentar el color y poder aplicar Depth Fade.;4;1;3;4;13;;1,1,1,1;0;0
+Node;AmplifyShaderEditor.LerpOp;19;-1364.62,-263.5695;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.CommentaryNode;26;-1161.655,268.4347;Inherit;False;1072.276;328.8295;Si bien en la escena actual el barco no toca el agua, eventualmente debería tocarlo. Agregué esto para que se haga el efecto de "estar dentro".;1;28;;1,1,1,1;0;0
+Node;AmplifyShaderEditor.PannerNode;13;-1045.834,52.06894;Inherit;False;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0;False;1;FLOAT;1;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.CommentaryNode;28;-1158.837,303.0544;Inherit;False;1067.773;287.7322;No lo conecto al ADD porque capaz no es lo que quiere el cliente.;8;6;5;10;9;12;11;7;8;;1,1,1,1;0;0
-Node;AmplifyShaderEditor.SamplerNode;4;-790.1877,-15.87724;Inherit;True;Property;_TextureSample0;Texture Sample 0;7;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.OneMinusNode;12;-384.0671,350.3439;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleAddOpNode;3;-452.7074,-6.596584;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
-Node;AmplifyShaderEditor.PowerNode;11;-555.066,352.4914;Inherit;False;False;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.DepthFade;6;-1133.345,361.9597;Inherit;False;True;False;True;2;1;FLOAT3;0,0,0;False;0;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;5;-1019.132,476.7446;Inherit;False;Property;_bias;bias;0;0;Create;True;0;0;0;False;0;False;1;4.43;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleAddOpNode;7;-885.9655,353.2914;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SamplerNode;4;-795.2007,-15.87724;Inherit;True;Property;_TextureSample0;Texture Sample 0;7;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;9;-545.0661,472.5473;Inherit;False;Property;_power;power;2;0;Create;True;0;0;0;False;0;False;0.01;0.47;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-726.1664,354.1914;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;7;-885.9655,353.2914;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;5;-1019.132,476.7446;Inherit;False;Property;_bias;bias;0;0;Create;True;0;0;0;False;0;False;1;4.43;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.DepthFade;6;-1133.345,361.9597;Inherit;False;True;False;True;2;1;FLOAT3;0,0,0;False;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;8;-681.8438,482.5804;Inherit;False;Property;_scale;scale;1;0;Create;True;0;0;0;False;0;False;0.3;0.5;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.OneMinusNode;12;-384.0671,350.3439;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-726.1664,354.1914;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;3;-453.7074,-6.596584;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.PowerNode;11;-555.066,352.4914;Inherit;False;False;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;1;-241.3467,-4.312475;Float;False;True;-1;2;ASEMaterialInspector;100;1;WaterSurface;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;False;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque=RenderType;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;21;0;22;0
 WireConnection;24;0;23;1
@@ -179,14 +179,14 @@ WireConnection;19;2;25;0
 WireConnection;13;0;19;0
 WireConnection;13;2;14;0
 WireConnection;4;1;13;0
+WireConnection;7;0;6;0
+WireConnection;7;1;5;0
 WireConnection;12;0;11;0
+WireConnection;10;0;7;0
+WireConnection;10;1;8;0
 WireConnection;3;0;4;0
 WireConnection;11;0;10;0
 WireConnection;11;1;9;0
-WireConnection;7;0;6;0
-WireConnection;7;1;5;0
-WireConnection;10;0;7;0
-WireConnection;10;1;8;0
 WireConnection;1;0;3;0
 ASEEND*/
-//CHKSM=AB94ACF677288029C971171A8B50817407DB0B1F
+//CHKSM=EA0F22762F203402BC609E4C3E58A6B1841009EC
