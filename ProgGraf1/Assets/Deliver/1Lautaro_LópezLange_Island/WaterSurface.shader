@@ -138,7 +138,7 @@ Shader "WaterSurface"
 }
 /*ASEBEGIN
 Version=18900
-366;73;1098;609;2072.919;653.4672;2.459858;True;False
+363;73;1101;640;2114.078;736.4649;2.082161;False;False
 Node;AmplifyShaderEditor.CommentaryNode;29;-1927.347,-525.975;Inherit;False;836.1091;449.5714;Para el agua armé esto para que se pueda aplicar el art style del proyecto como ondas en el agua.;7;19;20;24;21;22;23;25;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.Vector2Node;22;-1890.34,-281.7029;Inherit;False;Property;_tilling;tilling;5;0;Create;True;0;0;0;False;0;False;0,0;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.SamplerNode;23;-1899.877,-475.9751;Inherit;True;Property;_TextureSample1;Texture Sample 1;6;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -152,8 +152,8 @@ Node;AmplifyShaderEditor.Vector2Node;17;-1699.561,113.6923;Inherit;False;Propert
 Node;AmplifyShaderEditor.CommentaryNode;31;-1095.834,-65.87724;Inherit;False;1395.147;248.2;Esto es para aplicar el movimiento de ondas sobre la textura. El ADD está por si se quiere usar el Depth Fade. Usamos el Legacy/Unlit para fragmentar el color y poder aplicar Depth Fade.;4;1;3;4;13;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;14;-1479.199,174.3948;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.LerpOp;19;-1252.534,-291.3838;Inherit;False;3;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.CommentaryNode;26;-1161.655,268.4347;Inherit;False;1072.276;328.8295;Si bien en la escena actual el barco no toca el agua, eventualmente debería tocarlo. Agregué esto para que se haga el efecto de "estar dentro".;1;28;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.PannerNode;13;-1045.834,52.06894;Inherit;False;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0;False;1;FLOAT;1;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.CommentaryNode;26;-1161.655,268.4347;Inherit;False;1072.276;328.8295;Si bien en la escena actual el barco no toca el agua, eventualmente debería tocarlo. Agregué esto para que se haga el efecto de "estar dentro".;1;28;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.CommentaryNode;28;-1158.837,303.0544;Inherit;False;1067.773;287.7322;No lo conecto al ADD porque capaz no es lo que quiere el cliente.;8;6;5;10;9;12;11;7;8;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.SamplerNode;4;-790.1877,-15.87724;Inherit;True;Property;_TextureSample0;Texture Sample 0;7;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.OneMinusNode;12;-384.0671,350.3439;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
@@ -189,4 +189,4 @@ WireConnection;10;0;7;0
 WireConnection;10;1;8;0
 WireConnection;1;0;3;0
 ASEEND*/
-//CHKSM=98AD9BF540B83AD16A039FB03A7C17CA7B8F0E84
+//CHKSM=AB94ACF677288029C971171A8B50817407DB0B1F
